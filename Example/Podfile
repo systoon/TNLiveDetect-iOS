@@ -1,0 +1,23 @@
+# use_frameworks!
+
+# platform :ios, '8.0'
+
+target 'TNLiveDetect_Example' do
+  pod 'TNLiveDetect', :path => '../'
+
+  target 'TNLiveDetect_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
+
+# target 'TNLiveDetect' do
+
+#   target 'TNLiveDetectTests' do
+#     inherit! :search_paths
+
+    
+#   end
+# end

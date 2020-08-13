@@ -1,0 +1,6 @@
+framework module TNLiveDetect {
+  umbrella header "TNLiveDetect.h"
+
+  export *
+  module * { export * }
+}
