@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TNLiveDetect'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'a live detect sdk on iOS platform of sysw1n.'
 
 # This description is used to generate tags and improve search results.
@@ -34,4 +34,7 @@ a live detect sdk on iOS platform of sysw1n.
   
   s.frameworks = 'UIKit', 'Foundation', 'CoreFoundation', 'WebKit', 'AVFoundation'
   s.libraries = 'stdc++'
+  
+  s.dependency 'AFNetworking'
+
 end
