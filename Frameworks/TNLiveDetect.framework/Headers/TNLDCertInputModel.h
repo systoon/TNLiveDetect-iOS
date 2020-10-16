@@ -20,7 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong)NSString *deviceId;
 @property (nonatomic, assign)NSInteger timestamp;
 @property (nonatomic, strong)NSString *sign;
-@property (nonatomic, strong)NSString *cardNoCleartext;
 
 @end
 
